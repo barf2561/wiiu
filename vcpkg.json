@@ -1,0 +1,47 @@
+{
+  "name": "cemu",
+  "version-string": "1.0",
+  "builtin-baseline": "b81bc3a83fdbdffe80325eeabb2ec735a1f3c29d",
+  "dependencies": [
+    "pugixml",
+    "zlib",
+    "zstd",
+    {
+      "name": "libzip",
+      "default-features": false
+    },
+    "rapidjson",
+    "sdl2",
+    "boost-tokenizer",
+    "boost-container",
+    "boost-program-options",
+    "boost-nowide",
+    "boost-algorithm",
+    "boost-functional",
+    "boost-optional",
+    "boost-signals2",
+    "boost-asio",
+    "boost-ptr-container",
+    "boost-property-tree",
+    "boost-static-string",
+    "boost-random",
+    "fmt",
+    "libpng",
+    "glm",
+    {
+      "name": "glslang",
+      "default-features": false
+    },
+    "zstd",
+    {
+      "name": "wxwidgets",
+      "default-features": false
+    },
+    "openssl",
+    {
+      "name": "curl",
+      "default-features": false,
+      "features": [ "openssl" ]
+    }
+  ]
+}
